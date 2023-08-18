@@ -1,0 +1,57 @@
+/* Home.css */
+
+/* Style for the entire page */
+.IonPage {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Make the page take the full viewport height */
+  }
+  
+  /* Style for the header toolbar */
+  .IonToolbar {
+    background-color: #3880ff; /* Header background color */
+    color: white; /* Text color */
+    text-align: center;
+  }
+  
+  /* Style for the title */
+  .IonTitle {
+    font-size: 1.5rem;
+  }
+  
+  /* Style for the buttons */
+  .IonButton {
+    margin: 0 10px;
+    color: #3880ff; /* Button text color */
+    --border-radius: 5px; /* Button border radius */
+    --background: white; /* Button background color */
+  }
+  
+  .IonButton:hover {
+    background-color: #f0f0f0; /* Button background color on hover */
+  }
+  
+  /* Style for the content area */
+  .IonContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; /* Expand to fill available space */
+    padding: 20px;
+  }
+  
+  /* Style for the large title in the content area */
+  .IonHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  /* Style for the large title text */
+  .IonTitle[size="large"] {
+    font-size: 2rem;
+    color: #ca7979;
+  }
+  

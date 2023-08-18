@@ -1,0 +1,43 @@
+/* Product.css */
+
+.centered-text {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.product-card {
+  width: calc(33.33% - 20px); /* Adjust the width as needed */
+  margin-bottom: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+}
+
+.product-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-card ion-card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.product-card ion-card-content {
+  padding: 10px;
+}
+
+.product-card .price {
+  font-size: 1.1rem;
+  color: #007bff; /* Blue color for price */
+}
